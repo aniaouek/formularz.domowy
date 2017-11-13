@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/css.style">
+</head>
+
+<body>
+
+	<div id="formularz.domowy">
+		<form method="POST" action="https://formspree.io/aniaouek@gmail.com ">
+
+			<label for="firstName">Imie:</label><br>
+			<input type="text" name="firstName" id="firstName"><br>
+
+			<label for="lastName">Nazwisko:</label><br>
+			<input type="text" name="lastName" id="lastName"><br>
+
+			<label for="email">Email:</label><br>
+			<input type="text" name="email" id="email"><br>
+
+			<label for="number">Numer telefonu:</label><br>
+			<input type="text" name="number" id="number"><br>
+
+			<label for="wybierz miasto">Wybierz miasto:</label><br>
+		      <select>  
+		          <option value="Warszawa">Warszawa</option>
+                  <option value="Krakow">Kraków</option>
+                  <option value="Gdansk">Gdansk</option>
+              </select><br>
+
+			<label for="plec">Wybierz Płeć:</label><br>
+			<input type="radio" name="gender" value="male" checked> Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			<input type="radio" name="gender" value="other"> Other<br>
+
+			<label for="msg">Wiadomość:</label><br>
+			<textarea name="msg" id="msg" cols="30" rows="10" maxlength="100"></textarea><br>
+
+			<input type="radio" name="gender" value="male" checked> Wyrażam zgodę na przetwarzanie danych osobowych<br>
+			<input type="submit" value="Wyslij">
+		</form>
+	</div>
+
+</body>
+
+</html>
